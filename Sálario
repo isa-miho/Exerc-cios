@@ -1,0 +1,11 @@
+salario = float(input("Digite o seu salário: ")) 
+if salario<500.00:
+    reajusteUm = (salario * 0.15) + salario
+    print (f'Seu novo salário é {reajusteUm}')
+else:
+    if salario<1000.00:
+        reajusteDois = (salario * 0.1) + salario
+        print (f'Seu novo salário é {reajusteDois}')
+    else:
+        reajusteTres = (salario * 0.05) + salario
+        print (f'Seu novo salário é {reajusteTres}')

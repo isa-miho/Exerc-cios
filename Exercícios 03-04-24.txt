@@ -1,0 +1,6 @@
+nome = input("Digite seu nome: ")
+ano = int(input("Digite o ano em que você nasceu: "))
+ano += 100
+
+print("Nome: ", nome)
+print("Você terá 100 anos em: ",ano)
